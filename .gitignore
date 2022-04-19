@@ -19,3 +19,7 @@ arquivos/ibge/setores-censitarios/*
 arquivos/csv/*
 !arquivos/csv/AC.csv
 !arquivos/csv/SE.csv
+
+# GeoJSON
+arquivos/geojson/*
+!arquivos/geojson/README.md
