@@ -9,9 +9,13 @@ arquivos/ibge/estados/*
 arquivos/ibge/municipios/*
 arquivos/ibge/setores-censitarios/*
 !arquivos/ibge/estados/ac/
+!arquivos/ibge/estados/se/
 !arquivos/ibge/municipios/ac/
+!arquivos/ibge/municipios/se/
 !arquivos/ibge/setores-censitarios/ac/
+!arquivos/ibge/setores-censitarios/se/
 
 # CSV
 arquivos/csv/*
 !arquivos/csv/ac/
+!arquivos/csv/se/
