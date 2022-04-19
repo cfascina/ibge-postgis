@@ -17,5 +17,5 @@ arquivos/ibge/setores-censitarios/*
 
 # CSV
 arquivos/csv/*
-!arquivos/csv/ac/
-!arquivos/csv/se/
+!arquivos/csv/AC.csv
+!arquivos/csv/SE.csv
