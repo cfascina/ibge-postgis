@@ -8,6 +8,7 @@ sql/export.sql
 arquivos/ibge/estados/*
 arquivos/ibge/municipios/*
 arquivos/ibge/setores-censitarios/*
+
 !arquivos/ibge/estados/ac/
 !arquivos/ibge/estados/se/
 !arquivos/ibge/municipios/ac/
@@ -17,9 +18,15 @@ arquivos/ibge/setores-censitarios/*
 
 # CSV
 arquivos/csv/*
+
 !arquivos/csv/AC.csv
 !arquivos/csv/SE.csv
 
 # GeoJSON
 arquivos/geojson/*
+
+# README.md
 !arquivos/geojson/README.md
+!arquivos/ibge/estados/README.md
+!arquivos/ibge/municipios/README.md
+!arquivos/ibge/setores-censitarios/README.md
