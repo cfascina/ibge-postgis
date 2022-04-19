@@ -1,18 +1,20 @@
-# Dados do IBGE para PostgreSQL + PostGIS
+# IBGE data to PostgreSQL (w/ PostGIS)
 
-Este projeto coleta dados do [IBGE](https://www.ibge.gov.br/), os transforma e carrega em um banco de dados PostgreSQL com a extensão PostGIS, para realizar consultas/operações geoespaciais.
+This project collects data from [IBGE](https://www.ibge.gov.br/), treats it and loads it into a PostgreSQL database with the PostGIS extension.
 
-## Comandos Úteis
+The goal is to be able to perform geospatial operations in the database with simplified queries.
 
-Exportar o banco de dados:
+## Useful Commands
+
+Export the database:
 
 ```sh
 pg_dump -U postgres -h localhost dbname > export.sql
 ```
 
-Adicionar/Remover arquivos do Git LFS:
+Track/Untrack files with Git LFS:
 
 ```sh
-git lfs track "arquivo.ext"
-git lfs untrack "arquivo.ext"
+git lfs track "file.ext"
+git lfs untrack "file.ext"
 ```
