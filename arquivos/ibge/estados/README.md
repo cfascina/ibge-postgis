@@ -6,7 +6,7 @@ The files from remaining states can be downloaded through the following links:
 
 <https://www.ibge.gov.br/geociencias/downloads-geociencias.html>
 
-The path in the last link is: Organização do Território/Malhas Territoriais/Malhas de Setores Censitários ou Malhas Municipais
+The path in the last link is:
 
 ```tree
 .
@@ -16,11 +16,11 @@ The path in the last link is: Organização do Território/Malhas Territoriais/M
 ├────── Malhas Territitoriais
 ├───────── Malhas de Setores Censitários
 ├──────────── ...
-├──────────── Censo 2010 **(here)**
+├──────────── Censo 2010 (here)
 ├──────────── ...
 ├───────── Malhas Municipais
 ├──────────── ...
-├──────────── Município 2010 **(and here)**
+├──────────── Município 2010 (and here)
 ├──────────── ...
 ├────── ...
 └── ...
