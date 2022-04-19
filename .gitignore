@@ -1,3 +1,17 @@
+# Jupyter
 .ipynb_checkpoints/
-sql/data.sql
+
+# SQL
 sql/export.sql
+
+# SHP
+arquivos/ibge/estados/*
+arquivos/ibge/municipios/*
+arquivos/ibge/setores-censitarios/*
+!arquivos/ibge/estados/ac/
+!arquivos/ibge/municipios/ac/
+!arquivos/ibge/setores-censitarios/ac/
+
+# CSV
+arquivos/csv/*
+!arquivos/csv/ac/
