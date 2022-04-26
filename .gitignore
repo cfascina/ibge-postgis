@@ -5,28 +5,22 @@
 sql/export.sql
 
 # SHP
-arquivos/ibge/estados/*
-arquivos/ibge/municipios/*
-arquivos/ibge/setores-censitarios/*
-
-!arquivos/ibge/estados/ac/
-!arquivos/ibge/estados/se/
-!arquivos/ibge/municipios/ac/
-!arquivos/ibge/municipios/se/
-!arquivos/ibge/setores-censitarios/ac/
-!arquivos/ibge/setores-censitarios/se/
+files/ibge/states/*
+files/ibge/cities/*
+files/ibge/census-sectors/*
+!files/ibge/states/ac/
+!files/ibge/cities/ac/
+!files/ibge/census-sectors/ac/
 
 # CSV
-arquivos/csv/*
-
-!arquivos/csv/AC.csv
-!arquivos/csv/SE.csv
+files/csv/*
+!files/csv/AC.csv
 
 # GeoJSON
-arquivos/geojson/*
+files/geojson/*
 
 # README.md
-!arquivos/geojson/README.md
-!arquivos/ibge/estados/README.md
-!arquivos/ibge/municipios/README.md
-!arquivos/ibge/setores-censitarios/README.md
+!files/geojson/README.md
+!files/ibge/states/README.md
+!files/ibge/cities/README.md
+!files/ibge/census-sectors/README.md
