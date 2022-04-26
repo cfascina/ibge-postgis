@@ -1,3 +1,8 @@
+-- CRIA A TABELA COM O AUTOINCREMENT
+-- CREATE SEQUENCE teste_id_seq;
+-- CREATE TABLE teste(id integer NOT NULL DEFAULT nextval('teste_id_seq'));
+-- ALTER SEQUENCE teste_id_seq OWNED BY teste.id;
+
 -- ALTERAR TIPO DE COLUNA PARA Geometry COM SRID 4326 
 -- ALTER TABLE public.table ALTER COLUMN geom TYPE geometry(Geometry, 4326);
 
