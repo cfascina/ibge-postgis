@@ -1,1 +1,1 @@
-All GeoJSON files were converted to CSV by the [geojson2csv.ipynb](https://github.com/cfascina/ibge-postgis/blob/master/notebooks/geojson2csv.ipynb) notebook, and are available at [arquivos/csv](https://github.com/cfascina/ibge-postgis/tree/master/arquivos/csv) folder.
+All GeoJSON files were converted to CSV by the [geojson2csv.ipynb](https://github.com/cfascina/ibge-postgis/blob/master/notebooks/geojson2csv.ipynb) notebook, and an example is available at [files/csv](https://github.com/cfascina/ibge-postgis/tree/master/files/csv) folder.
