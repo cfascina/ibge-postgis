@@ -9,7 +9,7 @@ The goal is to be able to perform geospatial operations in the database with sim
 Export the database:
 
 ```sh
-pg_dump -U postgres -h localhost dbname > export.sql
+pg_dump -U postgres -h localhost dbname > export-YYYYMMDD.sql
 ```
 
 Track/Untrack files with Git LFS:
