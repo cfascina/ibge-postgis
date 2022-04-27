@@ -2,7 +2,7 @@
 .ipynb_checkpoints/
 
 # SQL
-sql/export.sql
+sql/export-*.sql
 
 # SHP
 files/ibge/states/*
