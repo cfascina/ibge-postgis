@@ -1,7 +1,8 @@
--- SELECT
--- (SELECT COUNT(1) FROM public.setores_censitarios WHERE CAST(cod_ibge AS TEXT) LIKE '28%') AS SC,
--- (SELECT COUNT(1) FROM public.indice_envelhecimento WHERE CAST(id_setor_censitario AS TEXT) LIKE '28%') AS IE;
+SELECT
+(SELECT COUNT(1) FROM public.setores_censitarios WHERE CAST(cod_ibge AS TEXT) LIKE '12%') AS SC,
+(SELECT COUNT(1) FROM public.populacao_idade_ativa WHERE CAST(id_setor_censitario AS TEXT) LIKE '12%') AS PIA;
 
+-- DELETE FROM public.populacao_idade_ativa WHERE id > 0;
 -- -- -- -- -- -- -- -- -- --
 
 -- SELECT
