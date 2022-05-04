@@ -1,3 +1,11 @@
+-- SELECT SC.cod_ibge
+-- FROM PUBLIC.setores_censitarios AS SC 
+-- WHERE SC.cod_ibge NOT IN (
+-- 	SELECT DR.id_setor_censitario FROM PUBLIC.domicilio_renda AS DR
+-- );
+
+-- -- -- -- -- -- -- -- -- --
+
 -- SELECT
 -- (SELECT COUNT(1) FROM public.populacao_residente_mas WHERE CAST(id_setor_censitario AS TEXT) LIKE '27%') as PRM, 
 -- (SELECT COUNT(1) FROM public.populacao_residente_fem WHERE CAST(id_setor_censitario AS TEXT) LIKE '27%') as PRF;
