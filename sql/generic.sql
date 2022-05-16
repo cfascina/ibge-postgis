@@ -86,4 +86,8 @@ JOIN PUBLIC.razao_sexo AS RS ON SC.cod_ibge = RS.id_setor_censitario
 JOIN PUBLIC.indice_envelhecimento AS IE ON SC.cod_ibge = IE.id_setor_censitario
 JOIN PUBLIC.domicilio_renda AS DR ON SC.cod_ibge = DR.id_setor_censitario
 JOIN PUBLIC.responsavel_renda AS RR ON SC.cod_ibge = RR.id_setor_censitario
-WHERE SC.id_municipio = 2709152;
+WHERE SC.cod_ibge IN (
+    270030005000069, 
+    270030005000068, 
+    270030005000070
+);
