@@ -1,6 +1,9 @@
 # Jupyter
 .ipynb_checkpoints/
 
+# Virtual Envs
+.env/
+
 # SQL
 sql/exports/*.sql
 
@@ -24,3 +27,6 @@ files/geojson/*
 !files/ibge/states/README.md
 !files/ibge/cities/README.md
 !files/ibge/census-sectors/README.md
+
+# Folders
+files/query-results/*.csv
