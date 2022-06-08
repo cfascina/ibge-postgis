@@ -29,4 +29,7 @@ files/geojson/*
 !files/ibge/census-sectors/README.md
 
 # Folders
-files/query-results/*.csv
+files/outputs/*.csv
+
+# VSCode
+.vscode/
