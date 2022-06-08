@@ -18,3 +18,9 @@ Track/Untrack files with Git LFS:
 git lfs track "file.ext"
 git lfs untrack "file.ext"
 ```
+
+## How to Use
+
+1. Create a CSV file named **data.csv** inside the `files/inputs/` folder. Each line in this file must be in the **file_name,lat,lng** format.
+2. Run the `ai_data.ipynb` notebook.
+3. The resulting files will be placed in the `files/outputs/` folder.
