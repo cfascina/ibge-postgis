@@ -5,8 +5,8 @@
 .env/
 
 # SQL
-sql/database/*.sql
-sql/inserts/*.sql
+sql/database
+sql/inserts
 
 # SHP
 files/ibge/states/*
